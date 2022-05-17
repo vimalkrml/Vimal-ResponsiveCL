@@ -1,0 +1,19 @@
+{
+  "name": "clpagevimal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "tailwindcss -build ./src/css/main.css -o ./public/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "parcel": "^2.5.0",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
